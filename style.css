@@ -108,13 +108,14 @@
     font-weight: bold;
 }
 .inner{
-    width: 100%;
+    width: 100rem;
     padding-right: 40%;
     margin-left:40px;
     margin-top: 10px;
     padding-bottom: 10px;
     display: flex;
     border-bottom: 1px solid black;
+    box-sizing: border-box;
 }
 .article_talk{
    justify-content: space-evenly;
