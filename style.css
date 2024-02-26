@@ -6,12 +6,12 @@
     display: flex;
     background-color:white ;
     height: 46px;
-    padding: 10px;
-    justify-content:space-evenly;
-    margin-bottom: 20px;
+    padding: 15px;
+    margin-left: 3%;
 }
 .logo{
     display: flex;
+    margin-left: 20px;
 }
 .logo-image{
     height: 50px;
@@ -19,17 +19,20 @@
     margin-left:2px ;
 }
 .smalltext{
-    font-size: 60%;
+    padding-left: 6px;
+    font-size: 9px;
+    font-weight: bold;
 }
 .logo-text{
-    font-size: 20px;
+    font-size: 25px;
     margin-left: 5px;
-    font-style: bold;
+    font-weight: 520;
 }
 .searchbox{
-    width: 50%;
+    width: 68%;
     height: 100%;
     padding: 5px;
+    margin-left: 35px;
 }
 .searchbar{
     width: 100%;
@@ -37,13 +40,14 @@
 }
 .searchtext{
     width: 40%;
-    height: 100%;
+    height: 150%;
 
 }
 .searchbutton{
-    width: 10%;
-    height: 125%;
-    margin: -.7%;
+    width: 7%;
+    height: 180%;
+    margin: -.6%;
+    font-weight: 700;
 }
 .options{
     display: flex;
@@ -59,22 +63,37 @@
 .mainpage{
     display: flex;
     padding: 2px;
-    flex-wrap:wrap ;
     padding-right: 20%;
 }
-.Contents{
-    width: 20%;
+.contentcontainer{
+    width: 80%;
     height: 100%;
 }
+.Contents{
+    margin-top: 23.5%
+}
 .contenttxt{
-    margin-top: 20px;
-    padding-left: 50%;
-    text-align: left;
-    font-weight:900;
-    justify-content: space-evenly;
+    padding-top: 11.8px;
+    border-bottom: 1px solid black;
+}
+.leftpage{
+    width: 20%;
+    height: 100%;
+    margin-left: 5%;
+}
+.list{
+    margin-top: 10px;
+    font-size:14px;
+    font: 14px sans-serif;
+}
+.select{
+    border: none;
+    rotate:  -90deg;
+    margin-left: -8px;
 }
 .centrepage{
     width: 80%;
+    Margin-left: 40px;
 }
 .hidebutton{
     background-color: #f8f9fa;
@@ -82,7 +101,7 @@
     margin-left: 10px;
 }
 .freespace{
-    height: 50px;
+    height: 20px;
 }
 .freespace2{
     width: 20%;
@@ -90,14 +109,11 @@
 }
 .WIKI{
     display: flex;
-    
-    Margin-left: 40px;
     border-bottom: 1px solid black;
-    
 }
 .wikitxt{
     font-size: 30px;
-    width: 87.5%;
+    width: 86%;
 }
 .languagebutton{
     background-color: white;
@@ -106,26 +122,49 @@
 .lan{
     display: flex;
     font-weight: bold;
+    margin-top: 10px;
 }
 .inner{
-    width: 100rem;
-    padding-right: 40%;
-    margin-left:40px;
+    width: 100%;
     margin-top: 10px;
     padding-bottom: 10px;
     display: flex;
     border-bottom: 1px solid black;
     box-sizing: border-box;
+    
+}
+.articlebox{
+    width: 100%;
+}
+.tools{
+    display: flex;
+}
+.tool-select{
+    border: none;
 }
 .article_talk{
    justify-content: space-evenly;
    width: 15%;
    display: flex;
-   margin-right: 40%;
+   margin-right: 60%;
 }
 .readview{
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    
+}
+.articlespan{
+    margin-right: 1rem;
+}
+.p1{
+    margin-top: 5px;
+}
+.p2{
+    margin-top: 16px;
+}
+.p{
+    margin-bottom: 10px;
+}
+.mainstuff{
+    margin-top: 16px;
 }
