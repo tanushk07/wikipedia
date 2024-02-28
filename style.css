@@ -159,13 +159,23 @@
 .p1{
     margin-top: 5px;
 }
-.p{
+.parent{
     margin-bottom: 5px;
-    display: block,flex;
+    display: flex;
+    font-size: 17px;
+    justify-content: space-evenly;
 }
 .mainstuff{
-    margin-top: 16px;
+    margin-top: 16px; 
 }
 .wiki_img1{
-    width: 20rem;
+    width:fit-content;
+    height:fit-content;
+    border: 5px grey;
+}
+.h{
+    font-weight:500;
+    font-size: 25px;
+    margin-top: 20px;
+    border-bottom: 1px solid black;
 }
