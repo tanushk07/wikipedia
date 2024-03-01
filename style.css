@@ -218,7 +218,9 @@
     text-align: center;
     background-color: rgb(238, 232, 232);
     padding: 10px;
+    border-bottom: 1px solid black;
 }
 .box{
     width: 33.3%;
+    
 }
